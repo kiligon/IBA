@@ -49,12 +49,11 @@ def hello_world():
     profile["picture"] = dict(session)['profile']['picture']
 
     return ('Hello, you are logge in as {}!''<br>'
-            'This is inf about you: {}!''<br>'
             '<a class="button" href="/logout">Logout</a>''<br>'
             '<a class="button" href="/about">About</a>''<br>'
             '<a class="button" href="/useragent">User-agent</a>''<br>'
             '<a class="button" href="/city/date">Day forecast</a>''<br>'
-            '<a class="button" href="/list/city">Week forecast</a>''<br>'.format(email, inf))
+            '<a class="button" href="/list/city">Week forecast</a>''<br>'.format(email))
 
 
 @app.route('/login')
@@ -89,7 +88,7 @@ def logout():
 def about():
     return ('Your name: {}!''<br>'
             'Your email: {}!''<br>'
-            'Your picture: {}!''<br>' .format(profile["name"], profile["email"], profile["picture"]))   
+            'Your picture: <img src="{}">''<br>' .format(profile["name"], profile["email"], profile["picture"]))   
 
 
 @app.route("/useragent")
