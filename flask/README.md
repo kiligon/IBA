@@ -8,6 +8,6 @@
 ## Useragent page
 ![](./img/useragent.png)
 ## Day forecast
-![](./img/Day forecsat.png)
+![](./img/day_forecsat.png)
 ## Week forecast
-![](./img/week forecast.png)
+![](./img/week_forecast.png)
