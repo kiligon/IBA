@@ -14,6 +14,7 @@ from dotenv import load_dotenv
 load_dotenv()
 profile = {}
 
+{'_google_authlib_nonce_': 'M80s7ydEZlRWfASFJVNZ', '_permanent': True, 'profile': {'email': 'ilya.cyepanov@gmail.com', 'family_name': 'Степанов', 'given_name': 'Илья', 'id': '106750179172000773227', 'locale': 'ru', 'name': 'Илья Степанов', 'picture': 'https://lh3.googleusercontent.com/a/AATXAJzJn590T8mCYMEmtECZUAqEaxRh8XBDbZ0sFoER=s96-c', 'verified_email': True}}
 
 # App config
 app = Flask(__name__)
