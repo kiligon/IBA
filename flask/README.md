@@ -11,3 +11,12 @@
 ![](./img/day_forecsat.png)
 ## Week forecast
 ![](./img/week_forecast.png)
+""
+
+## Docker init
+
+
+```
+docker build -t flask .
+docker run -p 5000:5000 -it flask
+```
